@@ -1,0 +1,71 @@
+ .contenedor{
+    padding:25px;
+    flex-direction: row;
+    display:flex;
+    height: 80vh;
+    justify-content:space-around;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    
+ }
+body{
+    background-color: #054261; /*url("fondoPython.jpeg");*/
+    background-size: cover;
+}
+
+ .card{
+    border: 2px solid gray;
+    border-radius:1rem;
+     
+ }
+
+ .card-body{
+    text-align : center;
+    border-top:1px groove #216c92;
+     
+ }
+
+img{
+    width:20rem;
+    height:9rem ;
+    border-radius: 0.9rem 0.9rem 0 0 !important;
+}
+
+#imagenQr{
+    margin:auto !important;
+    border-radius: 0  0  0 0 !important;
+}
+
+
+
+a{
+    margin-bottom:7px;
+   
+}
+
+.card-text{
+    height:5rem
+}
+
+ 
+.titulo{
+    padding: 1rem;
+    color:white;
+   
+    background-image:linear-gradient(to top, #054261 , #216c92);
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.titulo:hover{
+    background-image:linear-gradient(to bottom, #054261 , #216c92);
+}
+
+
+.boton:hover{
+    
+    background : linear-gradient(to bottom,   #376e8a , #5e92ac); /*de calculadora*/
+     color:black;
+}
